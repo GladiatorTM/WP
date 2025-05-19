@@ -1,15 +1,10 @@
-# Ігноруємо тимчасові файли та системні файли
-*.log
+# Ігноруємо файли MySQL
+mysql_data/mysql.sock
+mysql_data/auto.cnf
+mysql_data/ib_buffer_pool
+
+# Ігноруємо тимчасові файли
 *.swp
 *.bak
+*.tmp
 .DS_Store
-
-# Ігноруємо директорії, що зберігають дані MySQL
-mysql_data/
-wp-content/uploads/
-
-# Ігноруємо сокети MySQL, які є тимчасовими
-mysql_data/mysql.sock
-
-# Ігноруємо файли конфігурацій, які можуть бути специфічними для вашої машини
-.env
