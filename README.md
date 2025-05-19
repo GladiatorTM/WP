@@ -47,11 +47,15 @@
    http://localhost:8081
    ```
 
-   Для входу в phpMyAdmin використовуйте наступні дані:
+<details>
+  <summary>Деталі для підключення до phpMyAdmin</summary>
+  
+  **Server**: db  
+  **Username**: root  
+  **Password**: 4589
+  
+</details>
 
-   * **Server**: `db`
-   * **Username**: `root`
-   * **Password**: `4589`
 
 5. **Спільна робота через Git**
 
