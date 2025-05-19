@@ -1,5 +1,3 @@
-Ось повний текст у форматі **README.md**:
-
 ````markdown
 # WordPress Docker Project
 
